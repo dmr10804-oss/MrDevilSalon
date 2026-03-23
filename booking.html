@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booking | MrDevil Makeover Studio</title>
+    <meta name="description" content="Book your salon appointment online with MrDevil Makeover Studio." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="./index.html"><img class="brand-logo" src="./images/logo.png" alt="MrDevil Makeover Studio logo" /><span>MrDevil Makeover Studio</span></a>
+        <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">Menu</button>
+        <nav class="site-nav" id="siteNav">
+          <a href="./index.html">Home</a>
+          <a href="./about.html">About Us</a>
+          <a href="./services.html">Services</a>
+          <a href="./hair-styling.html">Hair Styling</a>
+          <a href="./pricing.html">Pricing</a>
+          <a href="./gallery.html">Gallery</a>
+          <a class="active" href="./booking.html">Booking</a>
+          <a href="./contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+    <main class="section">
+      <div class="container split">
+        <div class="reveal">
+          <p class="eyebrow">Online Appointment</p>
+          <h1>Reserve your beauty session.</h1>
+          <p>Choose your preferred service, date, and time. We will confirm your appointment shortly.</p>
+        </div>
+        <form class="booking-form reveal" id="bookingForm">
+          <label for="fullName">Full Name</label>
+          <input id="fullName" name="fullName" type="text" required />
+          <label for="phone">Phone</label>
+          <input id="phone" name="phone" type="tel" required />
+          <label for="service">Service</label>
+          <select id="service" name="service" required>
+            <option value="">Select Service</option>
+            <option>Hair Styling</option>
+            <option>Bridal Makeup</option>
+            <option>Facials</option>
+            <option>Nail Art</option>
+            <option>Spa Treatments</option>
+          </select>
+          <label for="date">Date</label>
+          <input id="date" name="date" type="date" required />
+          <label for="time">Time</label>
+          <input id="time" name="time" type="time" required />
+          <button class="btn btn-gold" type="submit">Book Appointment</button>
+          <p id="bookingMessage" class="form-msg" aria-live="polite"></p>
+        </form>
+      </div>
+    </main>
+    <footer class="site-footer"><div class="container footer-grid"><p>MrDevil Makeover Studio | [City, Country]</p></div></footer>
+    <script src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hair Cutting & Styling | MrDevil Makeover Studio</title>
+    <meta
+      name="description"
+      content="Explore all hair cutting styles at MrDevil Makeover Studio, including layer, bob, pixie, U cut, V cut, feather cut, straight cut, curly cut, and bangs."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="./index.html"><img class="brand-logo" src="./images/logo.png" alt="MrDevil Makeover Studio logo" /><span>MrDevil Makeover Studio</span></a>
+        <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">Menu</button>
+        <nav class="site-nav" id="siteNav">
+          <a href="./index.html">Home</a>
+          <a href="./about.html">About Us</a>
+          <a href="./services.html">Services</a>
+          <a class="active" href="./hair-styling.html">Hair Styling</a>
+          <a href="./pricing.html">Pricing</a>
+          <a href="./gallery.html">Gallery</a>
+          <a href="./booking.html">Booking</a>
+          <a href="./contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="section">
+      <div class="container">
+        <div class="section-title reveal">
+          <h1>Hair Cutting & Styling</h1>
+          <p>Choose your perfect look from our premium haircut styles.</p>
+        </div>
+
+        <div class="filter-row reveal">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="short">Short Hair</button>
+          <button class="filter-btn" data-filter="medium">Medium Hair</button>
+          <button class="filter-btn" data-filter="long">Long Hair</button>
+        </div>
+
+        <section class="hair-grid" id="hairGrid">
+          <article class="hair-card reveal" data-length="long">
+            <img src="https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?auto=format&fit=crop&w=800&q=80" alt="Layer cut style" loading="lazy" />
+            <div class="hair-card-body">
+              <h3>Layer Cut</h3>
+              <p>Soft movement and volume with face-framing layers.</p>
+              <p class="price-line">From $40</p>
+              <div class="hair-card-actions">
+                <button class="btn btn-soft detail-btn" data-style="Layer Cut">View Details</button>
+                <a class="btn btn-gold" href="./booking.html">Book Now</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="hair-card reveal" data-length="long">
+            <img src="https://images.unsplash.com/photo-1559599238-308793637427?auto=format&fit=crop&w=800&q=80" alt="Step cut style" loading="lazy" />
+            <div class="hair-card-body">
+              <h3>Step Cut</h3>
+              <p>Defined step levels for a dramatic textured look.</p>
+              <p class="price-line">From $42</p>
+              <div class="hair-card-actions">
+                <button class="btn btn-soft detail-btn" data-style="Step Cut">View Details</button>
+                <a class="btn btn-gold" href="./booking.html">Book Now</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="hair-card reveal" data-length="short">
+            <img src="https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=800&q=80" alt="Bob cut style" loading="lazy" />
+            <div class="hair-card-body">
+              <h3>Bob Cut</h3>
+              <p>Timeless, sleek, and easy-to-maintain chic cut.</p>
+              <p class="price-line">From $38</p>
+              <div class="hair-card-actions">
+                <button class="btn btn-soft detail-btn" data-style="Bob Cut">View Details</button>
+                <a class="btn btn-gold" href="./booking.html">Book Now</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="hair-card reveal" data-length="short">
+            <img src="https://images.unsplash.com/photo-1605980776566-0486c3ac7617?auto=format&fit=crop&w=800&q=80" alt="Pixie cut style" loading="lazy" />
+            <div class="hair-card-body">
+              <h3>Pixie Cut</h3>
+              <p>Bold and modern short style with graceful texture.</p>
+              <p class="price-line">From $36</p>
+              <div class="hair-card-actions">
+                <button class="btn btn-soft detail-btn" data-style="Pixie Cut">View Details</button>
+                <a class="btn btn-gold" href="./booking.html">Book Now</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="hair-card reveal" data-length="long">
+            <img src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=800&q=80" alt="U cut style" loading="lazy" />
+            <div class="hair-card-body">
+              <h3>U Cut</h3>
+              <p>Rounded U-shape finish for soft and fuller ends.</p>
+              <p class="price-line">From $35</p>
+              <div class="hair-card-actions">
+                <button class="btn btn-soft detail-btn" data-style="U Cut">View Details</button>
+                <a class="btn btn-gold" href="./booking.html">Book Now</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="hair-card reveal" data-length="long">
+            <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=800&q=80" alt="V cut style" loading="lazy" />
+            <div class="hair-card-body">
+              <h3>V Cut</h3>
+              <p>Elegant V-shaped silhouette for long flowing hair.</p>
+              <p class="price-line">From $37</p>
+              <div class="hair-card-actions">
+                <button class="btn btn-soft detail-btn" data-style="V Cut">View Details</button>
+                <a class="btn btn-gold" href="./booking.html">Book Now</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="hair-card reveal" data-length="medium">
+            <img src="https://images.unsplash.com/photo-1509785307050-d4066910ec1e?auto=format&fit=crop&w=800&q=80" alt="Feather cut style" loading="lazy" />
+            <div class="hair-card-body">
+              <h3>Feather Cut</h3>
+              <p>Feathered texture that adds bounce and softness.</p>
+              <p class="price-line">From $41</p>
+              <div class="hair-card-actions">
+                <button class="btn btn-soft detail-btn" data-style="Feather Cut">View Details</button>
+                <a class="btn btn-gold" href="./booking.html">Book Now</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="hair-card reveal" data-length="medium">
+            <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=80" alt="Straight cut style" loading="lazy" />
+            <div class="hair-card-body">
+              <h3>Straight Cut</h3>
+              <p>Clean straight line for a neat and classic finish.</p>
+              <p class="price-line">From $30</p>
+              <div class="hair-card-actions">
+                <button class="btn btn-soft detail-btn" data-style="Straight Cut">View Details</button>
+                <a class="btn btn-gold" href="./booking.html">Book Now</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="hair-card reveal" data-length="medium">
+            <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=800&q=80" alt="Curly hair cut style" loading="lazy" />
+            <div class="hair-card-body">
+              <h3>Curly Hair Cut</h3>
+              <p>Shape-focused cut for curl definition and balance.</p>
+              <p class="price-line">From $48</p>
+              <div class="hair-card-actions">
+                <button class="btn btn-soft detail-btn" data-style="Curly Hair Cut">View Details</button>
+                <a class="btn btn-gold" href="./booking.html">Book Now</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="hair-card reveal" data-length="short">
+            <img src="https://images.unsplash.com/photo-1523263685509-57c1d050d19b?auto=format&fit=crop&w=800&q=80" alt="Bangs fringe cut style" loading="lazy" />
+            <div class="hair-card-body">
+              <h3>Bangs / Fringe Cut</h3>
+              <p>Face-enhancing fringes from curtain to blunt bangs.</p>
+              <p class="price-line">From $22</p>
+              <div class="hair-card-actions">
+                <button class="btn btn-soft detail-btn" data-style="Bangs / Fringe Cut">View Details</button>
+                <a class="btn btn-gold" href="./booking.html">Book Now</a>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <section class="recommended-section reveal">
+          <h2>Recommended Styles</h2>
+          <div class="recommended-grid">
+            <article class="service-card">
+              <h3>Layer Cut + Curtain Bangs</h3>
+              <p>Perfect for soft volume and elegant face framing.</p>
+            </article>
+            <article class="service-card">
+              <h3>Feather Cut + Blow Dry</h3>
+              <p>Great choice for medium hair and effortless movement.</p>
+            </article>
+            <article class="service-card">
+              <h3>Curly Hair Cut + Hydration Spa</h3>
+              <p>Ideal for defining curls and reducing frizz naturally.</p>
+            </article>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <div class="detail-modal" id="styleModal" aria-hidden="true">
+      <div class="detail-modal-card">
+        <button class="modal-close" id="modalClose" aria-label="Close details">&times;</button>
+        <h3 id="modalTitle">Style Details</h3>
+        <p id="modalText">A premium style tailored to your hair type and face shape.</p>
+      </div>
+    </div>
+
+    <footer class="site-footer"><div class="container footer-grid"><p>MrDevil Makeover Studio | [City, Country]</p></div></footer>
+    <script src="./app.js"></script>
+  </body>
+</html>
